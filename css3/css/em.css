@@ -1,0 +1,36 @@
+html {
+	font-size: 100%;
+}
+
+body {
+	font-size: 1em;
+}
+
+#container {
+	width: 60em;
+}
+
+#wrap {
+	width: 46.25em;/*740px ÷ 16 = 46.25em */
+	margin: 1.5em auto;/*24px ÷ 16 = 1.5em*/
+	border: 0.0625em solid #ccc;/*1px ÷ 16 = 0.0625em*/
+}
+
+p{
+	font-size: 0.75em;/*0.625em × 12 = 0.750em */
+	line-height: 1.5em;/*18px(line-height) ÷ 12(font-size) = 1.5em */
+	margin: 1.5em;/*18px(margin) ÷ 12(font-size) = 1.5em */
+}
+
+h1 {
+	font-size: 1.125em; /*0.625em × 18 = 1.125em*/
+	line-height: 1em; /*18px(line-height) ÷ 18px(font-size) = 1em */
+	margin: 1em; /*18px(margin) ÷ 18px(font-size) = 1em */
+}
+
+p img {
+	width: 39.417em; /*1 ÷12( 父元素的font-size) × 90px(图片的宽度) = 7.5em */
+	height: 15em; /*1 ÷12( 父元素的font-size) × 90px(图片的高度) = 7.5em */
+	margin: 0 1.5em 1.5em 0;
+	float: left;
+}
