@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>带箭头的方框</title>
+	<style>
+	.info {
+         margin-top: 50px;
+         position:relative;
+         width:200px;
+         height:50px;
+         line-height:60px;
+         background:#F6F1B3;
+         box-shadow:1px 2px 3px #E9D985;
+         border:1px solid #DACE7C;
+         border-radius:4px;
+         text-align:center;
+         color:red;
+     }
+     .nav {
+         position:absolute;
+         left:30px;
+         overflow:hidden;
+         width:0;
+         height:0;
+         border-width:10px;
+         border-style:solid dashed dashed dashed;
+     }
+    .nav-border {
+         top:-20px;
+         border-color:transparent transparent #DACE7C transparent;
+     }
+     .nav-background {
+         top:-19px;
+         border-color:transparent transparent #F6F1B3 transparent;
+     }
+	</style>
+</head>
+<body>
+	<div class="info">
+		<span>提示信息</span>
+		<div class="nav nav-border"></div>
+		<div class="nav nav-background"></div>
+	</div>
+</body>
+</html>

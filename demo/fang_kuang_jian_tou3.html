@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>带箭头的方框</title>
+	<style>
+    .info {
+         margin-top: 50px;
+         position:relative;
+         width:200px;
+         height:50px;
+         line-height:60px;
+         background:#F6F1B3;
+         box-shadow:1px 2px 3px #E9D985;
+         border:1px solid #DACE7C;
+         border-radius:4px;
+         text-align:center;
+         color:red;
+     }
+     .nav {
+         position:absolute;
+         left:30px;
+         overflow:hidden;
+         width:24px;
+         height:24px;
+         font:normal 24px "微软雅黑";
+     }
+     .nav-border {
+         top:-17px;
+         color:#DACE7C;
+     }
+     .nav-background {
+         top:-16px;
+         color:#F6F1B3;
+     }
+	</style>
+</head>
+<body>
+	<div class="info">
+         <span>提示信息</span>
+         <div class="nav nav-border">♦</div>
+         <div class="nav nav-background">♦</div>
+    </div>
+</body>
+</html>

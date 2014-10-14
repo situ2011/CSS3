@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <style>
+   div.container{
+         position         :absolute; 
+         top              :30px; 
+         left             :40px; 
+         font-size        : 9pt; 
+         display          :block; 
+         height           :100px; 
+         width            :200px; 
+         background-color :transparent; 
+         *border          :1px solid #666; 
+     } 
+     s{ 
+         position     :absolute; 
+         top          :-20px; 
+         *top         :-22px; 
+         left         :20px; 
+         display      :block; 
+         height       :0; 
+         width        :0; 
+         font-size    : 0;  
+         line-height  : 0; 
+         border-color :transparent transparent #666 transparent; 
+         border-style :dashed dashed solid dashed; 
+         border-width :10px; 
+     } 
+     i{
+         position     :absolute; 
+         top          :-9px; 
+         *top         :-9px; 
+         left         :-10px; 
+         display      :block; 
+         height       :0; 
+         width        :0; 
+         font-size    : 0; 
+         line-height  : 0; 
+         border-color :transparent transparent #fff transparent; 
+         border-style :dashed dashed solid dashed; 
+         border-width :10px; 
+     } 
+     .content{ 
+         border                :1px solid #666; 
+         -moz-border-radius    :3px; 
+         -webkit-border-radius :3px; 
+         position              :absolute; 
+         background-color      :#fff; 
+         width                 :100%; 
+         height                :100%; 
+         padding               :5px; 
+         *top                  :-2px; 
+         *border-top           :1px solid #666; 
+         *border-top           :1px solid #666; 
+         *border-left          :none; 
+         *border-right         :none; 
+         *height               :102px; 
+         box-shadow            : 3px 3px 4px #999; 
+         -moz-box-shadow       : 3px 3px 4px #999; 
+         -webkit-box-shadow    : 3px 3px 4px #999; 
+         /* For IE 5.5 - 7 */
+         filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=35, Color='#999999'); 
+         /* For IE 8 */ 
+         -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";  
+     }
+  </style>
+ </head>
+ <body>
+ <div class="container">
+         <div class="content">
+             hello world!
+         </div>
+         <s>
+             <i></i>
+         </s>
+  </div>
+ </body>
+</html>
