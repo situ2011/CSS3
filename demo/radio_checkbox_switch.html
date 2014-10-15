@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>自定义单复选按钮和开关</title>
+	<style>
+	input[type="radio"] {
+		opacity: 0;
+		-webkit-appearance: none;
+		/* display: none; */
+	}
+
+	input[type="radio"] + label {
+		background: url(img/dian.png) no-repeat;
+		width: 44px;
+		height: 44px;
+		display: inline-block;
+		padding-left: 59px;
+		line-height: 44px;
+	}
+
+	input[type="radio"]:checked + label {
+		background: url(img/dian_2.png) no-repeat;
+	}
+	</style>
+</head>
+<body>
+	<input id="t1" type="radio" name="test">
+	<label for="t1">男</label>
+
+	<input id="t2" type="radio" name="test">
+	<label for="t2">女</label>
+
+	<input type="text">
+</body>
+</html>
