@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body, html {
+			font-size: 15px;
+			padding: 0;
+			margin: 0;
+		}
+
+		*, *:after, *:before {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Lato', Calibri, Arial, sans-serif;
+			color: #89867e;
+			background: #f9f9f9;
+		}
+
+		.main {
+			width: 100%;
+			margin: 0 auto;
+			padding: 2em;
+			max-width: 82.667em;
+			min-height: 40em;
+		}
+
+		.clearfix:before, .clearfix:after {
+			content: " ";
+			display: table;
+		}
+
+		.clearfix:after {
+			clear: both;
+		}
+
+		.nav ul {
+			max-width: 1240px;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			font-size: 1.5em;
+			font-weight: 300;
+		}
+
+		.nav li {
+			float: left;
+			width: 16.66666666666667%;
+			text-align: center;
+			-webkit-transition: border .5s;
+			-moz-transition: border .5s;
+			-o-transition: border .5s;
+			-ms-transition: border .5s;
+			transition: border .5s;
+		}
+
+		.nav a {
+			height: 9em;
+			display: block;
+			width: auto;
+			display: block;
+			color: rgba(249, 249, 249, .9);
+			text-decoration: none;
+			-webkit-transition: color .5s, background .5s, height .5s;
+			-moz-transition: color .5s, background .5s, height .5s;
+			-o-transition: color .5s, background .5s, height .5s;
+			-ms-transition: color .5s, background .5s, height .5s;
+			transition: color .5s, background .5s, height .5s;
+		}
+
+		a, button {
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+		}
+		a, li {
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		}
+		a {
+			color: #333;
+			text-decoration: none;
+		}
+
+		.nav li:nth-child(6n+1) {
+			background: rgb(208, 101, 3);
+		}
+
+		.nav li:nth-child(6n+2) {
+			background: rgb(233, 147, 26);
+		}
+
+		.nav li:nth-child(6n+3) {
+			background: rgb(22, 145, 190);
+		}
+
+		.nav li:nth-child(6n+4) {
+			background: rgb(22, 107, 162);
+		}
+
+		.nav li:nth-child(6n+5) {
+			background: rgb(27, 54, 71);
+		}
+
+		.nav li:nth-child(6n+6) {
+			background: rgb(21, 40, 54);
+		}
+
+		/* .nav li:nth-child(6n+1) a:hover {
+			
+		} */
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="main clearfix">
+			<nav id="menu" class="nav">
+				<ul>
+					<li><a href="#"><span><i></i></span><span></span></a></li>
+					<li><a href="#"><span><i></i></span><span></span></a></li>
+					<li><a href="#"><span><i></i></span><span></span></a></li>
+					<li><a href="#"><span><i></i></span><span></span></a></li>
+					<li><a href="#"><span><i></i></span><span></span></a></li>
+					<li><a href="#"><span><i></i></span><span></span></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div style="clear:both">
+	</div>
+</body>
+</html>
